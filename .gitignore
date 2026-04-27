@@ -1,0 +1,47 @@
+#  Environment variables (DO NOT COMMIT)
+.env
+*.env
+
+#  Virtual environments
+myvenv/
+venv/
+env/
+ENV/
+
+#  Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#  Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+#  Build / packaging
+build/
+dist/
+*.egg-info/
+
+#  Jupyter notebooks
+.ipynb_checkpoints/
+
+#  OS files
+.DS_Store
+Thumbs.db
+
+#  Logs
+*.log
+
+# Generated files
+images/
+*.zip
+
+#  Ignore generated markdown blogs BUT keep README
+*.md
+!README.md
+
+#  IDE / Editor
+.vscode/
+.idea/

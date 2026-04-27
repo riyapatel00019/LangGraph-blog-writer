@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+streamlit
+supabase
+
+langchain
+langgraph
+langchain-core
+langchain-groq
+
+python-dotenv
+pandas
+requests

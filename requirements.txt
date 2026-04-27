@@ -1,13 +1,11 @@
 fastapi
 uvicorn
 streamlit
+requests
+python-dotenv
 supabase
-
 langchain
 langgraph
-langchain-core
+langchain-tavily
 langchain-groq
-
-python-dotenv
-pandas
-requests
+tavily-python

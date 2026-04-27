@@ -306,7 +306,7 @@ with st.sidebar:
         else:
             try:
                 res = requests.get(
-                    "http://127.0.0.1:8000/get-blogs",
+                    "http://backend:8000/get-blogs",
                     headers={
                         "Authorization": f"Bearer {token}"
                     },
@@ -404,7 +404,7 @@ if run_btn:
         with st.spinner("⚙️ Generating blog... please wait"):
 
             res = requests.post(
-                "http://127.0.0.1:8000/generate-blog",
+                "http://backend:8000/generate-blog",
                 json={
                     "topic": topic,
                     "as_of": as_of.isoformat()
